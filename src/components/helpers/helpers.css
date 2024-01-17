@@ -1,0 +1,18 @@
+.addItemForm {
+    display: flex;
+    padding: 10px 0;
+}
+
+.editableSpan {
+    word-wrap: break-word;
+    max-width: 250px;
+}
+
+
+.error {
+    outline: 2px solid red;
+    border-radius: 5px;
+}
+.errorMessage {
+    color: red
+}

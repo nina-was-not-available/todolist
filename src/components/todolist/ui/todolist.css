@@ -1,0 +1,45 @@
+.todolistPage{
+    margin: 50px;
+    position: relative;
+}
+
+.todolistList {
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.todolist {
+   min-width: 300px;
+    opacity: 0.8;
+}
+
+.todolistHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Yrsa SemiBold";
+}
+
+.addTodolist {
+    position: sticky;
+    left: 50px;
+    width: max-content;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.noTasks {
+    margin: 10px;
+    font-family: cursive;
+    font-size: 23px;
+    opacity: 0.8;
+}

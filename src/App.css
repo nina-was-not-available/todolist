@@ -1,0 +1,14 @@
+.App {
+  height: 100vh;
+  min-width: 100%;
+  width: max-content;
+  /*background-image: url('fon/ozero-1920x1080-4k-hd-trava-zakat-fioletoviy-5173.jpg');*/
+  background-image: linear-gradient(white 15%, #ffb6f0);
+}
+.isInitialized {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
